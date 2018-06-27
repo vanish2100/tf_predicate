@@ -3,6 +3,14 @@
 
 步骤:
 import 所需包数据
+```
+# coding: utf-8
+import tensorflow as tf
+from sklearn.datasets import load_boston
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import scale
+from sklearn.model_selection import train_test_split
+```
 
 获取数据
 
