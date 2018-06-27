@@ -1,0 +1,27 @@
+ 
+matplotlib 的数据可视化
+
+```
+%matplotlib inline
+import matplotlib.pyplot as plt
+plt.plot([1,2,3],[5,7,4])
+plt.show()
+
+  
+# 在一个图中标记多条线，并且标记 title，x 和 y 的 label
+x = [1,2,3]
+y = [5,7,4]
+
+x2 = [1,2,3]
+y2 = [10,14,12]
+
+plt.plot(x, y, label='First Line')
+plt.plot(x2, y2, label='Second Line')
+
+plt.xlabel('Plot Number')
+plt.ylabel('Important var')
+plt.title('Interesting Graph\nCheck it out')
+plt.legend() # lengend 可以显示每条线的 label，就是图中的小框，可以注释掉看变化。
+plt.show()
+```
+
