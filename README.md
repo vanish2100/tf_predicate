@@ -12,7 +12,9 @@ from sklearn.preprocessing import scale
 from sklearn.model_selection import train_test_split
 ```
 
-获取数据
+获取数据并将数据清理降维和归一化 标准化
+
+
 
 选择不同的算法对数据集进行预测
 
