@@ -34,21 +34,4 @@ from sklearn.model_selection import train_test_split
    ```
    可视化预测结果数据
 
-算法2:
-   svm支持向量机
-   导入相关库
-   ~~~
-   from sklearn.svm import SVR
-   ~~~
-   
-  
-算法3:
-  
-  
-算法4:
-  
-算法5:
-  
-算法6:
-  
-算法7:
+
